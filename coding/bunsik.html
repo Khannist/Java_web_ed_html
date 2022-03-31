@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 연습</title>
+    <style>
+        table, th, td {
+            border: 1px solid #AAA;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col style="color: red;">
+            <col>
+            <col>
+        </colgroup>
+        <tr style="color: blueviolet;">
+            <th></th>
+            <th>면류</th>
+            <th>분식류</th>
+        </tr>
+        <tr>
+            <td style="color: red;">1</td>
+            <td>라면</td>
+            <td>떡볶이</td>
+        </tr>
+        <tr>
+            <td style="color: red;">2</td>
+            <td>우동</td>
+            <td>순대</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr style="background-color: blanchedalmond;">
+            <th colspan="2">성명</th>
+            <th rowspan="2">전화번호</th>
+            <th rowspan="2">이메일</th>
+            <th rowspan="2">주소</th>
+        </tr>
+        <tr style="background-color: blanchedalmond;">
+            <th>성</th>
+            <th>이름</th>
+        </tr>
+        <tr>
+            <td>홍</td>
+            <td>길동</td>
+            <td>010-1234-5678</td>
+            <td>gildong@example.com</td>
+            <td>서울시 강남구 역삼동</td>
+        </tr>
+    </table>
+</body>
+</html>

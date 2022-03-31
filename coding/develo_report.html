@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프런트엔드 개발자 지원서</title>
+</head>
+
+<body>
+    <h1>프런트엔드 개발자 지원서</h1>
+    <p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+    <hr>
+    <form action="">
+        <p><b>개인정보</b></p>
+        <ul>
+            <li>
+                <label for="dv_id">이름</label>
+                <input type="text" id="dv_id" autofocus required placeholder="공백없이 입력하세요.">
+            </li>
+            <li>
+                <label for="dv_phone">연락처</label>
+                <input type="tel" id="dv_phone" required>
+            </li>
+        </ul>
+        <p><b>지원 분야</b></p>
+        <!-- <ul>
+            <li>
+                <input type="radio" name="dv_job" value="dv_1">
+                <label>웹 퍼블리싱</label>
+            </li>
+            <li>
+                <input type="radio" name="dv_job" value="dv_2">
+                <label>웹 어플리케이션 개발</label>
+            </li>
+            <li>
+                <input type="radio" name="dv_job" value="dv_3" checked>
+                <label>개발환경개선</label>
+            </li>
+        </ul> -->
+        <label for="dv_join">선택하세요
+        <select id="dv_join">
+            <option value="dv_1">웹 퍼블리싱</option>
+            <option value="dv_2">웹 어플리케이션 개발</option>
+            <option value="dv_3">개발 환경 개선</option>
+        </select></label>
+        <p><b>지원동기</b></p>
+        <textarea cols="55" rows="6" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea><br>
+        <button type="submit">접수하기</button>
+        <button type="reset">다시 쓰기</button>
+    </form>
+</body>
+
+</html>

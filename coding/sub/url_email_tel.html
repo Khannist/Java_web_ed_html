@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+        #usr_join {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <h1>회원 가입</h1>
+            <fieldset>
+                <legend>로그인 정보</legend>
+                <ul>
+                    <li>
+                        <label for="usr_id">아이디</label>
+                        <input type="text" id="usr_id">
+                    </li>
+                    <li>
+                        <label for="usr_pwd">비밀번호</label>
+                        <input type="password" id="usr_pwd">
+                    </li>
+                    <li>
+                        <label for="usr_pwdc">비밀번호 확인</label>
+                        <input type="password" id="usr_pwdc">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>개인 정보</legend>
+                <ul>
+                    <li>
+                        <label for="usr_name">이름<input type="text" id="usr_name"></label>
+                    </li>
+                    <li>
+                        <label for="usr_mail">메일 주소<input type="email" id="usr_mail"></label>
+                    </li>
+                    <li>
+                        <label for="usr_phone">연락처<input type="text" id="usr_phone"></label>
+                    </li>
+                    <li>
+                        <label for="usr_page">블로그/홈페이지</label>
+                        <input type="url" id="usr_page">
+                    </li>
+                </ul>
+            </fieldset>
+            <br>
+            <input type="submit" value="가입하기" id="usr_join">
+        </fieldset>
+    </form>
+</body>
+</html>
