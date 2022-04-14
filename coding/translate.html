@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         #container {
-            width: 800px;
+            width: 600px;
             height: 200px;
             margin: 20px auto;
         }
@@ -17,21 +17,41 @@
             border: 1px solid #222;
             float: left;
             margin: 40px;
+            
         }
-        .origin:hover > div {
+        .origin > div {
             width: 100px;
             height: 100px;
             background-color: orange;
         }
-        #movex {
+        #movex:hover {
             transform: translateX(40px);
         }
-        #movey {
+        #movey:hover {
             transform: translateY(20px);
         }
-        #movexy {
-            transform: translate(40px,20px);
+        #movexy:hover {
+            transform: translate3d(40px,20px, 30px);
         }
+        #scalex:hover {
+            transform: scaleX(2);
+        }
+        #scaley:hover {
+            transform: scaleY(1.5);
+        }
+        #scale:hover {
+            transform: scale(0.7, .5);
+        }
+        #rotate1:hover {
+            transform: rotate(40deg);
+        }
+        #rotate2:hover {
+            transform: rotate(-40deg);
+        }
+        .rotatex:hover {
+            transform: rotateX(30deg);
+        }
+        #pers {perspective: 100px;}
     </style>
 </head>
 <body>
@@ -42,8 +62,35 @@
         <div class="origin">
             <div id="movey"></div>
         </div>
-        <div class="origin">
+        <div class="origin" id="pers">
             <div id="movexy"></div>
+        </div>
+
+        <div class="origin">
+            <div id="scalex"></div>
+        </div>
+        <div class="origin">
+            <div id="scaley"></div>
+        </div>
+        <div class="origin">
+            <div id="scale"></div>
+        </div>
+
+        <div class="origin" id="rotate1">
+            <img src="images/tree.jpg" alt="tree">
+        </div>
+        <div class="origin" id="rotate2">
+            <img src="images/tree.jpg" alt="tree">
+        </div>
+        <div class="origin">
+            <div class="rotatex">
+                <img src="images/sunset.jpg" alt="">
+            </div>
+        </div>
+        <div class="origin" id="pers">
+            <div class="rotatex">
+                <img src="images/sunset.jpg" alt="">
+            </div>
         </div>
     </div>
 </body>
