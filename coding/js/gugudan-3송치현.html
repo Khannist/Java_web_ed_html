@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        table {
+            float: left;
+            width: 120px;
+        }
+        table,th {
+            text-align: center;
+            border: 1px solid #222;
+            border-collapse: collapse;
+            margin: 10px;
+        }
+        th {
+            background-color: #aaa;
+        }
+        td {
+            border: 1px dotted #222;
+        }
+        th, td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>구구단</h1>
+
+    <script>
+        var i,j;
+
+        for (i = 1; i <= 9; i++) {
+            document.write("<table><tr><th><h3>" + i + "단</h3></th></tr>");
+            for (j = 1; j <= 9; j++) {
+                document.write("<tr><td>")
+                document.write(i + " X " + j + " = " + i*j);
+                document.write("</td></tr>")
+            }
+            document.write("</table>");
+        }
+    </script>
+</body>
+</html>
