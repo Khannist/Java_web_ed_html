@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데 자이언츠 숍</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prodli.css">
+    <link rel="stylesheet" href="css/bars.css">
+    <link rel="stylesheet" href="css/prod.css">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <i class="fa fa-bars" aria-hidden="true" onclick="onDisplay()"></i>
+            <a href="index.html" id="logo">
+                <!-- <span class="logo">GIANTS</span> SHOP -->
+                <img src="images/logo.png" alt="자이언츠숍">
+            </a>
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" class="srhbox" placeholder="검색">
+            <!-- <div id="nav">
+                <ul>
+                    <li>
+                        <a href="#">
+                            상품
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            이벤트
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            공지사항
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            마이페이지
+                        </a>
+                    </li>
+                </ul>
+
+            </div> -->
+        </header>
+        <div id="slide">
+            <div id="slideimg">
+                <img src="images/main_rolling1_149.jpg" class="slide" alt="">
+                <img src="images/main_rolling1_151.jpg" class="slide" alt="">
+                <img src="images/main_rolling1_152.jpg" class="slide" alt="">
+            </div>
+        </div>
+        <div id="content">
+            <h1>HOT</h1>
+            <div id="prod">
+                <div id="prod1" class="prod_nb">
+                    <div><img src="images/1th.jpg" alt="img1" class="p-count">
+                        <img class="hoverimg" src="images/1th-1.jpg" alt="img1-1">
+                        <span class="bgFilter">
+                            <p>[자이언츠][3차주문판매] <br>프로페셔널 40주년기념 홈 유니폼<br>121,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/2th.jpg" alt="img2" class="p-count">
+                        <img class="hoverimg" src="images/2th-1.jpg" alt="img2-1">
+                        <span class="bgFilter">
+                            <p>[자이언츠][2차주문제작]<br>22 홈 프로페셔널 유니폼<br>121,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/3th.jpg" alt="img3" class="p-count">
+                        <img class="hoverimg" src="images/3th-1.jpg" alt="img3-1">
+                        <span class="bgFilter">
+                            
+                            <p>[CORE] 퀸지 그래피티 유니폼<br>99,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/4th.jpg" alt="img4" class="p-count">
+                        <img class="hoverimg" src="images/4th-1.jpg" alt="img4-1">
+                        <span class="bgFilter">
+                            <p>[CORE] 퀸지 그래피티 <br>니트 머플러<br>25,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                </div>
+                <h1>BEST</h1>
+                <div id="prod2" class="prod_nb">
+                    <div>
+                        <img src="images/5th.jpg" alt="img5" class="p-count">
+                        <img class="hoverimg" src="images/5th-1.jpg" alt="img5-1">
+                        <span class="bgFilter">
+                            <p>[자이언츠][2차주문제작]<br>22 원정 프로페셔널 유니폼<br>121,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/8th.jpg" alt="img8" class="p-count">
+                        <img class="hoverimg" src="images/8th-1.jpg" alt="img8-1">
+                        <span class="bgFilter">
+                            <p>[자이언츠] 먼슬리 컬러 캡 (11월)<br>33,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/7th.jpg" alt="img7" class="p-count">
+                        <img class="hoverimg" src="images/7th-1.jpg" alt="img7-1">
+                        <span class="bgFilter">
+                            <p>[자이언츠] 프로페셔널 <br>챔피언 벨크로 모자<br>39,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/11th.jpg" alt="img11" class="p-count">
+                        <img class="hoverimg" src="images/11th-1.jpg" alt="img11-1">
+                        <span class="bgFilter">
+                            <p>[CORE] 홈 레플리카 유니폼<br>65,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                </div>
+                <h1>기획전</h1>
+                <div id="prod3" class="prod_nb">
+                    <div>
+                        <img src="images/6th.jpg" alt="img6" class="p-count">
+                        <img class="hoverimg" src="images/6th-1.jpg" alt="img6-1">
+                        <span class="bgFilter">
+                            <p>[CORE] 퀸지 그래피티 <br>볼캡(BLACK)<br>36,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/10th.jpg" alt="img10" class="p-count">
+                        <img class="hoverimg" src="images/10th-1.jpg" alt="img10-1">
+                        <span class="bgFilter">
+                            <p>[CORE] 퀸지 일러스트 <br>캠프캡(BEIGE)<br>39,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/9th.jpg" alt="img9" class="p-count">
+                        <img class="hoverimg" src="images/9th-1.jpg" alt="img9-1">
+                        <span class="bgFilter">
+                            <p>[CORE] 퀸지 핸드폰 <br>하드 케이스 4종(택 1)<br>20,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/12th.jpg" alt="img12" class="p-count">
+                        <img class="hoverimg" src="images/12th-1.jpg" alt="img12-1">
+                        <span class="bgFilter">
+                            <p>[CORE] 퀸지 그래피티 <br>이어폰 케이스 4종(택 1)<br>18,000원</p>
+                            <div class="rbtn">&rang;</div>
+                        </span>
+                    </div>
+
+                </div>
+                
+                <!-- <div id="prod4" class="prod_nb">
+                </div> -->
+                
+            </div>
+        </div>
+        <footer>
+            <p style="text-align: right;">
+                서울 서초구 강남대로39길 
+                15-11, 201호  l  상호 : 
+                (주)코어커뮤니케이션  l  
+                대표 : 이연규  l   사업자등록번호: 
+                872-86-01261   <br>  통신판매업신고번호 :
+                2019-서울서초-0887호  l  대표번호 : 
+                051)791-1992  l  팩스번호 : 02)3461-0528 
+                <br>이메일 : 
+                core@corecomm.co.kr  l  개인정보담당자: 남현호  l  호스팅사업자: 메이크프랜
+            </p>
+        </footer>
+        
+    </div>
+    <div id="nav_bars">
+        <div id="headName">
+            <div id="profile"></div>
+            <label id="usr_name">로그인</label>
+        </div>
+        <div id="exit" onclick="offDisplay()">X</div>
+        <ul id="prod_list">
+            <details>
+                <summary id="allprod" class="bars_ul">
+                    <!-- <li id="allprod" class="bars_ul"> -->
+                        상품
+                    <!-- </li> -->
+                </summary>
+                    <ul>
+                        <li><a href="#">유니폼</a></li>
+                        <li><a href="#">모자</a></li>
+                        <li><a href="#">의류</a></li>
+                        <li><a href="#">아동용품</a></li>
+                        <li><a href="#">응원용품</a></li>
+                        <li><a href="#">생활용품</a></li>
+                        <li><a href="#">기념상품</a></li>
+                        <li><a href="#">기획전</a></li>
+                    </ul>
+            </details>
+            <summary id="event" class="bars_ul">
+                이벤트
+            </summary>
+            <summary id="news" class="bars_ul">
+                공지사항
+            </summary>
+            <summary id="mypage" class="bars_ul">
+                마이페이지
+            </summary>
+        </ul>
+
+
+        <script src="js/autoslideshow.js"></script>
+        <script src="js/navBars.js"></script>
+        <script src="js/onDispaly.js"></script>
+        <script src="js/prodslide.js"></script>
+    </div>
+
+    <!-- <div id="searchBar">
+        <div id="srhBox">
+            <input type="text">
+        </div>
+    </div> -->
+</body>
+</html>
