@@ -31,8 +31,12 @@
     background-color: #999;
 }
 #headName {
-    width: 100%;
+    width: 400px;
     height: 200px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    border: 1px solid #222;
     /* border-bottom: 1px solid #222; */
 }
 #headName #profile{
@@ -41,12 +45,15 @@
     width: 100px;
     height: 100px;
     display: inline-block;
+    background: url('../images/usr_ico.png') no-repeat center;
+    background-size: 100px;
     background-color: #999;
+    background-blend-mode: multiply;
 }
 #headName #usr_name {
     position: absolute;
-    top: 70px;
-    left: 180px;
+    top: 100px;
+    left: 205px;
     font-size: 27px;
     font-weight: 600;
     color: #222;
@@ -80,5 +87,5 @@ d_list li~ul li {
 #prod_list a {
     text-decoration: none;
     color: #222;
-    
 }
+

@@ -13,3 +13,5 @@ function showSlides() {
     slides[current - 1].style.display = "block";
     setTimeout(showSlides,2000);
 }
+
+

@@ -17,11 +17,13 @@
     margin: 5px;
     overflow: hidden;
 }
+
 #prod .prod_nb div .hoverimg{
     position:absolute;
     top:0;
     left:0; 
     z-index: -1;
+    transform: translateX(-350px);
 }
 #prod p {
     width: 100%;
@@ -63,3 +65,4 @@
     height: 100%;
     visibility: visible;
 }
+
