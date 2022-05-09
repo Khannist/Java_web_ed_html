@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데 자이언츠 숍</title>
+    <link rel="stylesheet" href="css/prdt_style.css">
+    <link rel="stylesheet" href="css/bars.css">
+    <link rel="stylesheet" href="css/prodli.css">
+    <link rel="stylesheet" href="css/prod2.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <i class="fa fa-bars" aria-hidden="true" onclick="onDisplay()"></i>
+            <a href="index.html" id="logo">
+                <img src="images/logo.png" alt="자이언츠숍">
+            </a>
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" class="srhbox" placeholder="검색">
+        </header>
+        <nav>
+            <ul onclick="">
+                <li id="uniform">유니폼</li>
+                <li id="cap">모자</li>
+                <li id="wear">의류</li>
+                <li id="kids">아동용품</li>
+                <li id="cheer">응원용품</li>
+                <li id="life">생활용품</li>
+                <li id="show">기념상품</li>
+                <li id="plan">기획전</li>
+            </ul>
+        </nav>
+        <div id="content">
+            <div id="prod">
+                <div style="background-color: gray;"><img src="images/kids/kids_0.jpg" alt="img_not"></div>
+                <div style="background-color: blue;"><img src="images/kids/kids_1.jpg" alt="img_not"></div>
+                <div style="background-color: red;"><img src="images/kids/kids_2.jpg" alt="img_not"></div>
+                <div style="background-color: purple;"><img src="images/kids/kids_3.jpg" alt="img_not"></div>
+                <div style="background-color: black;"><img src="images/kids/kids_4.jpg" alt="img_not"></div>
+                <div style="background-color: pink;"><img src="images/kids/kids_5.jpg" alt="img_not"></div>
+                <div style="background-color: green;"><img src="images/kids/kids_6.jpg" alt="img_not"></div>
+                <div style="background-color: yellow;"><img src="images/kids/kids_7.jpg" alt="img_not"></div>
+                <div style="background-color: violet;"><img src="images/kids/kids_8.jpg" alt="img_not"></div>
+                <div style="background-color: gold;"><img src="images/kids/kids_9.jpg" alt="img_not"></div>
+
+            </div>
+        </div>
+        <footer>
+            <p style="text-align: right;">
+                서울 서초구 강남대로39길 
+                15-11, 201호  l  상호 : 
+                (주)코어커뮤니케이션  l  
+                대표 : 이연규  l   사업자등록번호: 
+                872-86-01261   <br>  통신판매업신고번호 :
+                2019-서울서초-0887호  l  대표번호 : 
+                051)791-1992  l  팩스번호 : 02)3461-0528 
+                <br>이메일 : 
+                core@corecomm.co.kr  l  개인정보담당자: 남현호  l  호스팅사업자: 메이크프랜
+            </p>
+        </footer>
+        
+    </div>
+    <div id="nav_bars">
+        <div id="headName">
+            <div id="profile"></div>
+            <label id="usr_name">로그인</label>
+        </div>
+        <div id="exit" onclick="offDisplay()">X</div>
+        <ul id="prod_list">
+            <details>
+                <summary id="allprod" class="bars_ul">
+                    상품
+                </summary>
+                <ul>
+                    <li><a href="lprdt_uniform.html">유니폼</a></li>
+                    <li><a href="lprdt_cap.html">모자</a></li>
+                    <li><a href="lprdt_wear.html">의류</a></li>
+                    <li><a href="lprdt_kids.html">아동용품</a></li>
+                    <li><a href="lprdt_cheer.html">응원용품</a></li>
+                    <li><a href="lprdt_life.html">생활용품</a></li>
+                    <li><a href="lprdt_show.html">기념상품</a></li>
+                    <li><a href="lprdt_plan.html">기획전</a></li>
+                </ul>
+            </details>
+            <summary id="event" class="bars_ul">
+                이벤트
+            </summary>
+            <summary id="news" class="bars_ul">
+                공지사항
+            </summary>
+            <summary id="mypage" class="bars_ul">
+                마이페이지
+            </summary>
+        </ul>
+
+        <script src="js/movetest.js"></script>
+        <script src="js/chprod.js"></script>
+        <script src="js/navBars.js"></script>
+    </div>
+</body>
+</html>
+
